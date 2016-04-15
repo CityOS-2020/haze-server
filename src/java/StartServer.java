@@ -14,6 +14,7 @@ import org.hibernate.tool.hbm2ddl.SchemaExport;
  * @author mateosokac
  */
 public class StartServer {
+
     public static void main(String[] args)
     {
         AnnotationConfiguration c = new AnnotationConfiguration();
