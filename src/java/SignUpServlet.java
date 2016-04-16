@@ -32,6 +32,8 @@ public class SignUpServlet extends HttpServlet {
         view.forward(request, response);    
         Database d = new Database();
         d.createToken("","");
+        
+        
     }
 
     @Override
